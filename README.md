@@ -1,5 +1,5 @@
 ## Preview
-Open [Monty Hall](https://montyhall-4lrz.netlify.app/)
+Open in your browser  [Monty Hall](https://montyhall-4lrz.netlify.app/)
 
 ## Getting Started
 
