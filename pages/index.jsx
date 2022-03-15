@@ -3,13 +3,15 @@ import Porta from "../components/Porta";
 import PortaModel from "../model/porta";
 
 export default function Home() {
-  const [p1, setP1] = useState(PortaModel(1))
+  const [p1, setP1] = useState(new PortaModel(1))
+  const [texto, setTexto] = useState("...")
 
   return (
     <div style={{
-      display: "flex"
+      display: "flex",
+      flexDirection: "column"
     }}>
-      <Porta porta={p1}  />
+      <Porta value={p1} onChange={novaPorta => setP1(novaPorta)} />
     </div>
   )
 }
