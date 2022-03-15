@@ -28,6 +28,9 @@ export default function Form() {
           </Link>
         </Card>
       </div>
+      <div>
+        <h3> Desenvolvido por <a href="https://github.com/4lrz">4LRZ</a> </h3>
+      </div>
     </div>
   )
 }

@@ -27,3 +27,11 @@
     margin: 0;
     cursor: pointer;
 }
+
+.form>div>h3>a {
+    color: #c0392c;
+}
+
+.form>div>h3>a:hover {
+    color: #28a085;
+}
